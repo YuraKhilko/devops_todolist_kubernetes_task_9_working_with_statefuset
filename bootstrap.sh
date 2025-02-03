@@ -9,7 +9,7 @@ kubectl apply -f namespace.yml
 kubectl apply -f namespace-mysql.yml
 
 echo "Applying ConfigMaps..."
-kubectl apply -f confgiMap.yml
+kubectl apply -f configMap.yml
 kubectl apply -f st-configMap.yml
 
 echo "Applying Secrets..."
